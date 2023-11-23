@@ -1,0 +1,37 @@
+header{
+    background-color:red;
+    height:8vh ;
+    box-shadow: 0px 2px 0px 1px rgb(128, 128, 128);
+}
+header>nav>a:hover{
+    background-color: white;
+    
+}
+header>nav>li{
+    display: inline-block;
+    height: 100%;
+    padding: 0 1em;
+    color: white;
+}
+header>nav>li:hover,
+header>nav>li:first-child{
+    color: black;
+    background-color: white;
+}
+header>nav{
+    height: 100%;
+}
+header>nav>li>a{
+    position: relative;
+    top: 50%;
+    translate: 0% -50%;
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+main{
+   background-color: grey; 
+}
+footer{
+    background-color: white;
+}
